@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Hello, Secret_Test"
-        run: echo "Hello, ${{ vars.SECRET_TEST }}"
+        run: echo "Hello, ${{ secrets.SECRET_TEST }}"
